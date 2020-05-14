@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['icon_566',['icon',['../class_inventory_slot.html#a154d055739e06d65982d15fd85f3d08c',1,'InventorySlot.icon()'],['../class_item.html#af1dc016532d298122f97471dc66c2c81',1,'Item.icon()']]],
+  ['inbattle_567',['inBattle',['../class_battle_manager.html#a170627c7038aa6c4b129662ff1266534',1,'BattleManager.inBattle()'],['../class_player_controller.html#a9021713b97be747c5109e30865a065fc',1,'PlayerController.inBattle()']]],
+  ['ingame_568',['inGame',['../class_game_manager.html#a9f57e66c0f718f1c78ec478af47d7f76',1,'GameManager']]],
+  ['inputx_569',['inputX',['../class_player_movement_animation.html#ac1c8b67784b26a0cb5a13d06669f0125',1,'PlayerMovementAnimation']]],
+  ['inputz_570',['inputZ',['../class_player_movement_animation.html#a42f954b7650be5d694c802c0bca38eed',1,'PlayerMovementAnimation']]],
+  ['instance_571',['instance',['../class_inventory.html#ae88b8381f35fc496d2b9db36b09b962b',1,'Inventory.instance()'],['../class_battle_manager.html#a13bd019df69b12ef974d111f888bd0b6',1,'BattleManager.instance()'],['../class_equipment_manager.html#a9dca6162e0b7cbffe4236efe73b6f0c7',1,'EquipmentManager.instance()'],['../class_flag_manager.html#ab94b685b969ad7210c793c264b439929',1,'FlagManager.instance()'],['../class_game_manager.html#a7666e8468dac197b9eb32dd32128524f',1,'GameManager.instance()'],['../class_player_manager.html#aefb71b25f2b9f25cab36bf928dbe5019',1,'PlayerManager.instance()']]],
+  ['inventory_572',['inventory',['../class_inventory_u_i.html#a8d6663f7c90f116e9d9d3a9f9ed8f616',1,'InventoryUI.inventory()'],['../class_player.html#ae5c0c6619317e41e1628c95695ad661d',1,'Player.inventory()'],['../class_player_data.html#ae7693d3a5b1333337acccb293b4ef64c',1,'PlayerData.inventory()']]],
+  ['inventoryui_573',['inventoryUI',['../class_inventory_u_i.html#a1593de1830018267913e90a5a1a4ad77',1,'InventoryUI.inventoryUI()'],['../class_equipment_manager.html#a707cd326036aa7008b92e5bb15c69957',1,'EquipmentManager.inventoryUI()']]],
+  ['isboss_574',['isBoss',['../class_enemy_stats.html#a54ed357af4558e90460eed2df4e7987f',1,'EnemyStats']]],
+  ['isbossbattle_575',['isBossBattle',['../class_battle_manager.html#a822e05c1384f7a6583c4c1523835c203',1,'BattleManager']]],
+  ['isdashing_576',['isDashing',['../class_player_controller.html#a92b04cab7c50125a7ba2121be58a803d',1,'PlayerController']]],
+  ['isdefualtitem_577',['isDefualtItem',['../class_item.html#a5bec7b9e2253ccf63a13e2ea3c5234e7',1,'Item']]],
+  ['isflag_578',['isFlag',['../class_scene_change.html#aa312c9fe268bb95ad134aa9790bc331b',1,'SceneChange']]],
+  ['isfocus_579',['isFocus',['../class_interactable.html#a4f7ee9f92e6f253277249ca457fd320c',1,'Interactable']]],
+  ['item_580',['item',['../class_inventory_slot.html#a8ae5d1ac6931024f78dace41bb318e86',1,'InventorySlot.item()'],['../class_item_pickup.html#aaf79b6a956c1035419f87c08021ab581',1,'ItemPickup.item()']]],
+  ['itemparent_581',['itemParent',['../class_inventory_u_i.html#a5ece09581e54f9fc1d8852f0527340c5',1,'InventoryUI']]],
+  ['items_582',['items',['../class_inventory.html#a293c252e7e0964f7df6cce377d22f247',1,'Inventory']]]
+];

@@ -6,9 +6,66 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TitleMenu.unity
+    guid: b13d1e81bd3002c4785995dd6d1db2d5
+  - enabled: 1
+    path: Assets/Scenes/Combat/ForestCombat.unity
+    guid: 6d236a5d356a593479583aa408617e3e
+  - enabled: 1
+    path: Assets/Scenes/EmeranForest.unity
+    guid: d24927746feca7441a31807e91ffb01d
+  - enabled: 1
+    path: Assets/Scenes/Combat/VolcanoCombat.unity
+    guid: eb1cd8ea7b3a91b4fb6b3d182d42d2c5
+  - enabled: 1
+    path: Assets/Scenes/Combat/SnowCombat.unity
+    guid: 0bca01d682b9b0649b4a91c4e51d8ccd
+  - enabled: 1
+    path: Assets/Scenes/Combat/CaveCombat.unity
+    guid: 5632a60205d26cb49bdb21fd1f3e8be1
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/BadEnding.unity
+    guid: 74b4adfc582bd264fbca3d345305affa
+  - enabled: 1
     path: Assets/Scenes/Overworld.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/TestScene.unity
+    path: Assets/Scenes/Cutscenes/CutsceneEscape.unity
+    guid: a4d884605dfaf2644aaa26079c984b56
+  - enabled: 1
+    path: Assets/Scenes/PreLoad.unity
+    guid: eefcbc8d720d9434292239db57a9f1ec
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/FinalBossCutscene.unity
+    guid: 667842bc58e168a44bfff72d093bac0a
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/GoodEnding.unity
+    guid: 097b48e4215b77e4082c5bde63c205e8
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/SnowForestCutscene.unity
+    guid: 23d6b9b335b991a48a14254e75de9616
+  - enabled: 1
+    path: Assets/Scenes/TestScene/TestScene.unity
     guid: 88c2ddaab39819340bc0cf207ceb94e9
+  - enabled: 1
+    path: Assets/Scenes/Kingdoms/Emeran.unity
+    guid: 348a96459a43a2248befaad61f5fa7a9
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: bf9a55a41b6501644a9834ddb580d25e
+  - enabled: 1
+    path: Assets/Scenes/VolcanoCave.unity
+    guid: 66ae4ce090d81c94f91219c4708db7f0
+  - enabled: 1
+    path: Assets/Scenes/Kingdoms/Rubo.unity
+    guid: ef2d6dc40c2920841bd98de1ec434e08
+  - enabled: 1
+    path: Assets/Scenes/Kingdoms/Sapphor.unity
+    guid: c50456a357281544a9900cab55c210e2
+  - enabled: 1
+    path: Assets/Scenes/Cave.unity
+    guid: f7131b5ef20b36445977732f9b0dd9c4
+  - enabled: 1
+    path: Assets/Scenes/Kingdoms/Peara.unity
+    guid: 9a3404270951df44ba42d30929b31d80
   m_configObjects: {}
