@@ -98,6 +98,11 @@ public class PlayerController : MonoBehaviour
             RemoveFocus ();
         }
 
+        if (Input.GetKeyDown (KeyCode.Backspace))
+            {
+                canEncounterMonsters = !canEncounterMonsters;
+            }
+
         if (inBattle)
         {
             if (Input.GetKeyDown (KeyCode.O) && attackIsCooling == false)

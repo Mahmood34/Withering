@@ -88,6 +88,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myStats: {fileID: 0}
   playerCombat: {fileID: 0}
+  playerRigidbody: {fileID: 0}
+  moveDirection: {x: 0, y: 0, z: 0}
 --- !u!114 &2388127188006196119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,7 +133,7 @@ MonoBehaviour:
   healthBar: {fileID: 903653238040972484}
   isBoss: 0
   flags: []
-  trustToGive: 1
+  trustToGive: 10
 --- !u!54 &2388127188006196118
 Rigidbody:
   m_ObjectHideFlags: 0

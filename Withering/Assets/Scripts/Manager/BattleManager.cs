@@ -37,8 +37,8 @@ public class BattleManager : MonoBehaviour
     /// <summary>
     /// Method for loading a battle.
     /// </summary>
-    /// <param name="lastSavedPosition">The location of the player before initiating a battle.</param>
-    public void LoadBattle (Vector3 lastSavedPosition)
+    /// <param name="PositionToSave">The location of the player before initiating a battle.</param>
+    public void LoadBattle (Vector3 PositionToSave)
     {
         switch (SceneManager.GetActiveScene ().name)
         {
@@ -64,7 +64,8 @@ public class BattleManager : MonoBehaviour
         }
 
         currentSceneIndex = SceneManager.GetActiveScene ().buildIndex;
-        BattleManager.lastSavedPosition = lastSavedPosition;
+        BattleManager.lastSavedPosition = PositionToSave;
+        Debug.Log(lastSavedPosition);
         PlayerManager.instance.DisableMonsterEncounters ();
         PlayerManager.instance.PlayerIsInBattle ();
         inBattle = true;
@@ -78,8 +79,7 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void ExitBattle ()
     {
-        PlayerManager.instance.WarpPlayer (lastSavedPosition);
-        FindObjectOfType<Camera> ().transform.position = PlayerManager.instance.player.transform.position;
+
         if (bossName == "CrystaBoss")
         {
             SceneManager.LoadScene ("Overworld");
@@ -93,6 +93,9 @@ public class BattleManager : MonoBehaviour
         inBattle = false;
         bossName = null;
         isBossBattle = false;
+        PlayerManager.instance.WarpPlayer (BattleManager.lastSavedPosition);
+        FindObjectOfType<Camera> ().transform.position = PlayerManager.instance.player.transform.position;
+        PlayerManager.instance.StartPlayerMovement();
     }
 
     /// <summary>

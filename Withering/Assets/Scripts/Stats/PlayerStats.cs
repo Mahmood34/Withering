@@ -53,8 +53,8 @@ public class PlayerStats : CharacterStats
     {
         if (newItem != null)
         {
-            Defence.AddModifier (newItem.AttackModifier);
-            Attack.AddModifier (newItem.DefenceModifier);
+            Attack.AddModifier (newItem.AttackModifier);
+            Defence.AddModifier (newItem.DefenceModifier);
             MagicAttack.AddModifier (newItem.MagicAttackModifier);
             MagicDefence.AddModifier (newItem.MagicDefenceModifier);
             Agility.AddModifier (newItem.AgilityModifier);
@@ -62,8 +62,8 @@ public class PlayerStats : CharacterStats
 
         if (oldItem != null)
         {
-            Defence.RemoveModifier (oldItem.AttackModifier);
-            Attack.RemoveModifier (oldItem.DefenceModifier);
+            Attack.RemoveModifier (oldItem.AttackModifier);
+            Defence.RemoveModifier (oldItem.DefenceModifier);
             MagicAttack.RemoveModifier (oldItem.MagicAttackModifier);
             MagicDefence.RemoveModifier (oldItem.MagicDefenceModifier);
             Agility.RemoveModifier (oldItem.AgilityModifier);

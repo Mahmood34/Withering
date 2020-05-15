@@ -97,6 +97,7 @@ public class MonsterSpawner : MonoBehaviour
     /// </summary>
     private void WaveCompleted ()
     {
+        PlayerManager.instance.StopPlayerMovement();
         BattleManager.instance.ExitBattle ();
     }
 
